@@ -1,0 +1,273 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Hanken Grotesk", sans-serif;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  /* background-color: #333; */
+  position: relative;
+}
+
+nav {
+  height: 80px;
+}
+
+nav .nav-container {
+}
+
+nav .main-menu {
+}
+
+.main-ul {
+  width: 100%;
+}
+
+.header-icon {
+}
+
+.header-icon > div {
+}
+
+/* section 1 */
+section .main-slide {
+  width: 1713px;
+}
+
+section .slide-wrap {
+}
+
+section .slide-img {
+  position: relative;
+  /* position: absolute; */
+  top: 0;
+}
+
+section .slide-txt-container {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+}
+
+section .slide-img img {
+  width: 1713px;
+}
+
+section .slide-txt-box {
+  width: 100%;
+  height: 600px;
+  /* background-color: aqua; */
+  position: relative;
+}
+
+section .slide-txt-contents {
+  width: 870px;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 25%;
+}
+
+section .slide-txt-contents h6 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  letter-spacing: 1dvh;
+  color: #fff;
+}
+
+section .slide-txt-contents h1 {
+  font-size: 5.3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+section .slide-txt-contents p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-bottom: 3.5rem;
+  color: #fff;
+}
+
+section .slide-txt-contents p > a {
+  margin: 0 auto;
+  width: 170px;
+  height: 40px;
+  display: block;
+  background-color: #fff;
+  color: #000;
+  font-size: 11px;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+section .slide-txt-contents p > a:hover a {
+  background-color: #eee;
+  transition: all 2s;
+}
+
+/* section 2 */
+
+section .main-container {
+  width: 1713px;
+  position: relative;
+  /* padding-top: 6rem !important; */
+
+  /* padding-bottom: 6rem !important; */
+}
+
+section .main-container-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+section .main-img {
+  position: relative;
+}
+section .main-img img {
+  width: 850px;
+  padding: 5px 5px 0 5px;
+  display: flex;
+}
+
+section .main-img .main-btn {
+  position: absolute;
+  top: 40%;
+}
+section .main-img h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+}
+
+section .main-img p > a {
+  margin: 0 auto;
+  width: 170px;
+  height: 40px;
+  display: block;
+  background-color: #fff;
+  color: #000;
+  font-size: 11px;
+  line-height: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+footer .footer-top-wrap {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-top-container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+footer .footer-top-contents {
+  padding: 40px;
+  display: flex;
+}
+
+footer .footer-top-context {
+  padding: 40px;
+}
+
+footer .footer-top-context h6 {
+  font-size: 1rem;
+  text-align: left;
+}
+
+footer .footer-top-context p {
+  font-size: 0.8rem;
+  text-align: left;
+  color: #aaa;
+}
+
+footer .footer-top {
+  background-color: #fff;
+  display: flex;
+}
+
+footer .footer-middle {
+  background-color: #eee;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+}
+
+footer .footer-middle-container {
+  width: 1320px;
+  display: flex;
+  margin: 0 auto;
+}
+
+footer .footer-middle-contents {
+  padding-left: 20px;
+  display: flex;
+}
+
+footer .footer-middle-context h6 {
+  font-size: 1.1rem;
+  letter-spacing: 0.6ch;
+}
+
+footer .footer-bottom {
+  background-color: #333;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+}
+
+footer .footer-bottom-container {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-middle-contents {
+}
+footer .footer-middle-contents .footer-middle-menu {
+  display: flex;
+}
+footer .footer-middle-contents .footer-middle-menu .shop-company {
+  display: flex;
+}
+
+footer .shop-title {
+}
+footer .company-title {
+}
+
+footer .footer-bottom-text p {
+  color: #fff;
+  font-weight: lighter;
+}
+
+footer .footer-bottom-icon ul {
+  display: flex;
+}
+
+footer .footer-bottom-icon li {
+  padding-left: 1rem;
+}
+
+footer .footer-bottom-icon img {
+  width: 2rem;
+}
